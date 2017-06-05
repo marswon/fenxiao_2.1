@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="fenxiao-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="fenxiao-common-service-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fenxiao-common-service/fenxiao-common-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fenxiao-common-integration-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fenxiao-common-integration/fenxiao-common-integration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fenxiao-common-util-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fenxiao-common-util/fenxiao-common-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fenxiao-common-redis-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fenxiao-common-redis/fenxiao-common-redis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/fenxiao-web/target/classes"/>
+        <property name="context-root" value="fenxiao-web"/>
+    </wb-module>
+</project-modules>

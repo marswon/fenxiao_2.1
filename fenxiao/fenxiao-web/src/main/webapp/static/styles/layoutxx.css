@@ -1,0 +1,66 @@
+.header{ background:#d8e4fe url(../images/layout/header_bg.gif) right bottom; height:75px; /*padding:8px 8px 8px 15px;*/ overflow:hidden;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+
+#accordionMenu .accordion-body {
+    background: #525252;
+    color: #fff;
+}
+
+#accordionMenu ul,li{margin: 0;padding:0}
+#accordionMenu	li{ list-style: none;line-height: 30px;}
+#accordionMenu	li a{width:100%;text-decoration: none;color: #fff;display: inline-block;font-size: 12px;text-align: center;}
+.li_selected_bgcolor{ display: block;
+    background: url(../images/layout/current_bg.png) no-repeat;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;}
+.sy_logo{
+    width:211px;
+    height:75px;
+    padding-left: 15px;
+    line-height: 75px;
+    float: left;
+
+}
+.login_info{
+    width:211px;
+    height:75px;
+    padding-left: 15px;
+    line-height: 75px;
+    float: right;
+
+}
+
+#accordionMenu .panel-header {
+    background: url(../images/layout/title_bg.png) no-repeat left top;
+    line-height: 30px;
+    color: #fff;
+}
+.accordion .accordion-header-selected .panel-title {
+    color: #fff;
+    text-align: center;
+}
+.accordion .accordion-header {
+    border-width: 0 0 0 0;
+    cursor: pointer;
+}
+#accordionMenu .panel-title{
+    color: #fff;
+    text-align: center;
+}
+/*页面内边距*/
+.ymnbj{
+	padding: 20px 50px 0 50px;
+}
+.panel-title{
+	font-size: .9rem;
+}
+.panel-header,accordion-header{
+	height: 29px;
+}
+.panel-title{
+	line-height: 1.9rem;
+}

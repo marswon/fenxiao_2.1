@@ -1,0 +1,37 @@
+/* index */
+.ftitle{
+			font-size:14px;
+			font-weight:bold;
+			color:#666;
+			padding:5px 0;
+			margin-bottom:10px;
+			border-bottom:1px solid #ccc;
+		}
+		.fitem{
+			margin-bottom:5px;
+		}
+		.fitem label{
+			display:inline-block;
+			width:80px;
+		}
+		
+#queryForm div label{
+	margin-left:5px;
+	display:inline-block;
+	width:80px;
+	}		
+/* end index */
+
+/* hack easyui css */
+
+.combobox-item-hover{
+    cursor:hand;
+}
+.combo{
+ padding: 0px 0px;
+ margin:0px 2px 0px 2px;
+ border: 1px solid #A9A9A9;
+}
+
+
+/* hack easyui css end */

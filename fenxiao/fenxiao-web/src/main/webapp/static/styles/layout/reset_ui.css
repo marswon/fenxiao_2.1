@@ -1,0 +1,45 @@
+/* CSS Document */	
+/*//////////////////////////////////÷ÿ÷√easyUi—˘ Ω////////////////////////////////////////////////////////*/
+	.panel-header{ background:url(images/title_bg.png) no-repeat left top; line-height: 30px; color:#fff;
+	}
+	
+	
+	.panel-tool{ position: absolute; left: 5px; top: 12px; height:11px; width:11px;
+	}
+	.accordion .accordion-header .panel-title{ margin-left:0px;
+	}
+	.menudiv,.accordion-body{ background:#525252;
+	}
+	.layout-button-left{ position: absolute; right: -170px;
+	}
+	.button-left{ position: absolute; right: -170px;
+	}
+	.accordion .accordion-header { background: url(images/menu_bg.png) no-repeat left top; border-width: 0; cursor: pointer;
+	}
+	
+	
+	.tabs-panels{ border-width: 0 0px 0px;
+	}
+	
+	
+	
+	.menu_line{ background:url(images/menu_line.png) no-repeat; height:2px; overflow:hidden;
+	}
+	
+	
+	.title_more{ overflow:hidden;
+	}
+		.notice{ float:left; font-size:14px; color:#1088ae;
+		}
+		.more{ float:right;
+		}
+	
+	.system_pannel .tabs-wrap .tabs li.tabs-selected a.tabs-inner{ background:none;
+	}
+	
+	
+	.combo{ height:21px; border:1px solid #999999; padding:2px;
+	}
+	
+
+

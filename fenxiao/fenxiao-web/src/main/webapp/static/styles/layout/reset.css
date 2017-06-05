@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dd,dt,dl,ul,li,h1,h2,h3,h4,h5,h6,p,fieldset,form,pre,blockquote,input,textarea,th{ margin:0; padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+img{
+	 border:0
+}
+address,th,code,cite,var,caption,dfn,strong,em{
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul{
+	list-style:none;
+}
+caption,th{
+	text-align:left;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0
+}
+input,textarea,select,option,button,optgroup{
+	font-family:inherit;
+	font-style:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+code,kbd,tt,samp{
+	font-size:100%;
+}
+h1,h2,h3,h4,h5,h6{ 
+	font-size:100%; 
+	font-weight:normal
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input,textarea,select,button{
+	 *font-size:100%
+}
+body{
+	 line-height:1.5
+}
+ol,ul{
+	 list-style:none
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table{
+	 border-collapse:0;
+	 border-spacing:0
+ }
+caption,th{ 
+	text-align:left
+}
+/* remember to highlight anchors and inserts somehow! */
+:link,:visited,ins{
+	 text-decoration:none
+}
+blockquote,p{
+	 quotes:none
+}
+q:before,q:after,blockquote:before,blockquote:after{
+	 content:''; 
+	 content:none;
+ }
